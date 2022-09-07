@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+body{
+  background-image: url(/src/cofee.avif);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
+.container{
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: rgba(240, 255, 255, 0.516);
+  width: 50%;
+  min-height: 90vh;
+  margin: 30px auto;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  padding: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.h1{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  margin-bottom: -30px;
+  color: rgb(64, 14, 14);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input{
+  flex: 1;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(64, 14, 14);
+  font-size: 15px;
 }
+
+.btn-add{
+  padding: 10px;
+  color: rgb(247, 241, 241);
+  border: 1px solid rgb(64, 14, 14) ;
+  width: 90px;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(111, 25, 25, 0.619);;
+}
+.btn-add:hover{
+  background-color: rgb(177, 94, 94);
+  color: rgb(247, 243, 243);
+}
+
+li{
+  padding: 8px;
+  margin: 5px 40px 5px 10px;
+  border: 2px solid white;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: rgb(64, 14, 14);
+  text-align: center;
+  flex-wrap: wrap;
+  font-weight: bolder;
+}
+
+
+.delete{
+  margin-left:90%;
+}
+.btn-delete{
+  padding: 10px;
+  color: rgb(247, 241, 241);
+  border: 1px solid rgb(58, 15, 15) ;
+  width: 90px;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(111, 25, 25, 0.619);
+}
+.btn-delete:hover{
+  background-color: rgb(177, 94, 94);
+  color: rgb(247, 243, 243);
+}
+
+
+
