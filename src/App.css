@@ -79,6 +79,15 @@ li{
   background-color: rgb(177, 94, 94);
   color: rgb(247, 243, 243);
 }
+@media all and (max-width: 500px){
+  .container{
+    width: 100%;
+    min-height: 90vh;
+  }
+  .h1{
+    font-size: 20px;
+  }
+}
 
 
 
